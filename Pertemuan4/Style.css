@@ -1,0 +1,13 @@
+.kotak{
+    border-style: solid;
+    border-color: red;
+    border-top-width: 8px;
+    border-bottom-width: 15px;
+    border-left-width: 6px;
+    border-right-width: 10px;
+    padding: 10px;
+}
+
+.stabilo {
+Background-color:yellow;
+}

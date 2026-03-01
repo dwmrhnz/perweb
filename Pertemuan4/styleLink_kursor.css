@@ -1,0 +1,22 @@
+a:link{
+    color: orange;
+    text-decoration: none;
+}
+a:visited{
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: url(kuzor.jpg);
+    display: block;
+    background-color: yellow;
+}
+a:active{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}

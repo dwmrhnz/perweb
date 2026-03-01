@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Registrasi</title>
+</head>
+<body>
+    <form action="confirm.html" method="post">
+        <table align="center">
+            <tr>
+                <th colspan="3" align="center">Formulir Registrasi</th>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Nama anda</td>
+                <td>:</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>Password anda</td>
+                <td>:</td>
+                <td><input type="password" name="pwd"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" name="kelamin" value="lk">Laki-laki
+                <input type="radio" name="kelamin" value="pr">Perempuan</td>
+            </tr>
+            <tr>
+                <td>Binatang Kesayangan</td>
+                <td>:</td>
+                <td>
+                    <select name="Hewan" size="1">
+                    <option selected value="kc">Kucing</option>
+                    <option value="kl">Kelinci</option>
+                    <option value="hm">Hamster</option>
+                    <option value="sp">Sapi</option>
+                    <option value="hr">Harimau</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><input type="submit" value="Kirimkan Data"></td>
+                <td></td>
+                <td align="center"><input type="reset" value="Hapus Formulir"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
