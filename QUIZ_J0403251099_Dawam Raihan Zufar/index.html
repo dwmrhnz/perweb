@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Perweb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white pt-3 pb-0 mb-4 navbar-custom">
+        <div class="container">
+            <ul class="navbar-nav me-auto flex-row gap-4 mb-2 mb-lg-0 fw-bold text-muted">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Notifications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Discover</a>
+                </li>
+            </ul>
+            <form class="d-flex align-items-center gap-2 mb-2">
+                <input class="form-control form-control-sm" type="search" placeholder="Keyword" aria-label="Search" style="width: 200px;">
+                <button class="btn btn-light border btn-sm" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm mb-3">
+                    <div class="profile-bg"></div>
+                    <div class="card-body position-relative pt-5">
+                        <img src="img/LOGO IPB UNIVERSITY_BULET.png" class="position-absolute profile-avatar" alt="IPB">
+                        <h6 class="card-title fw-bold mb-0">Institut Pertanian Bogor</h6>
+                        <p class="text-muted small mb-3">@IPB</p>
+                        
+                        <div class="d-flex justify-content-between text-muted" style="font-size: 0.75rem;">
+                            <div>
+                                <div class="fw-bold">TWEETS</div>
+                                <div class="fw-bold fs-5" style="color: #0084b4;">987</div>
+                            </div>
+                            <div>
+                                <div class="fw-bold">FOLLOWING</div>
+                                <div class="fw-bold fs-5" style="color: #0084b4;">321</div>
+                            </div>
+                            <div>
+                                <div class="fw-bold">FOLLOWERS</div>
+                                <div class="fw-bold fs-5" style="color: #0084b4;">654</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card border-0 shadow-sm mb-3" style="background-color: #f5f8fa;">
+                    <div class="card-body d-flex gap-2 p-3 align-items-center">
+                        <img src="img/LOGO IPB UNIVERSITY_BULET.png" width="32" height="32" class="rounded" alt="User">
+                        <input type="text" class="form-control border-1" placeholder="What's happening?">
+                    </div>
+                </div>
+
+                <div class="card border-0 shadow-sm">
+                    <div class="card-header text-center bg-white py-3 border-bottom-0" style="color: #0084b4;">
+                        <a class="nav-link" href="#">View 10 new Tweets</a>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex gap-3 py-3 border-top">
+                            <img src="img/LOGO IPB UNIVERSITY_BULET.png" width="48" height="48" class="rounded" alt="IPB">
+                            <div>
+                                <h6 class="mb-0 fw-bold" style="font-size: 0.95rem;">Institut Pertanian Bogor <span class="text-muted fw-normal">@IPB - 30m</span></h6>
+                                <p class="mb-0 text-secondary" style="font-size: 0.95rem;">Mencari dan memberi yang terbaik</p>
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex gap-3 py-3" style="background-color: #f5f8fa;">
+                            <img src="img/MAX.png" width="48" height="48" class="rounded" alt="Renanti">
+                            <div>
+                                <h6 class="mb-0 fw-bold" style="font-size: 0.95rem;">Renanti <span class="text-muted fw-normal">@medha - 45m</span></h6>
+                                <p class="mb-0 text-secondary" style="font-size: 0.95rem;">Selamat mengerjakan quiz Perancangan Web...</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card border-0 shadow-sm mb-3">
+                    <div class="card-header bg-white fw-bold fs-5 border-bottom-0 pt-3 pb-0">
+                        Who to follow
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="d-flex align-items-center p-3 border-bottom">
+                            <img src="img/ALONSO.png" width="48" height="48" class="rounded me-2" alt="Hikmah">
+                            <div>
+                                <div class="fw-bold" style="font-size: 0.85rem;">Hikmah Diarapat <span class="text-muted fw-normal">@hikmah</span></div>
+                                <button class="btn btn-light btn-follow mt-1">Follow</button>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center p-3 border-bottom">
+                            <img src="img/HAMILTON.png" width="48" height="48" class="rounded me-2" alt="Fauzan">
+                            <div>
+                                <div class="fw-bold" style="font-size: 0.85rem;">Fauzan Adhima <span class="text-muted fw-normal">@fauzan</span></div>
+                                <button class="btn btn-light btn-follow mt-1">Follow</button>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center p-3 border-bottom">
+                            <img src="img/RUSSEL.png" width="48" height="48" class="rounded me-2" alt="Atikah">
+                            <div>
+                                <div class="fw-bold" style="font-size: 0.85rem;">Atikah Rahayu <span class="text-muted fw-normal">@mandasari</span></div>
+                                <button class="btn btn-light btn-follow mt-1">Follow</button>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center p-3">
+                            <img src="img/SAINZ.png" width="48" height="48" class="rounded me-2" alt="Tentri">
+                            <div>
+                                <div class="fw-bold" style="font-size: 0.85rem;">Tentri Oktaviani <span class="text-muted fw-normal">@tentri</span></div>
+                                <button class="btn btn-light btn-follow mt-1">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-muted d-flex justify-content-between p-3" style="font-size: 0.8rem;">
+                        <span>© 2026 Twitter</span>
+                        <span>About Help Terms</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
