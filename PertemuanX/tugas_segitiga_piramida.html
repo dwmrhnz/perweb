@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Segitiga Piramida</title>
+</head>
+<body>
+    <label for="tinggiInput">Masukan berapa tinggi segitiga: </label>
+    <input type="number" id="tinggiInput" min="1">
+    
+    <button onclick="buatSegitiga()">Buat</button>
+
+    <script>
+        function buatSegitiga() {
+            let tinggi = parseInt(document.getElementById("tinggiInput").value);
+            
+            if (isNaN(tinggi) || tinggi <= 0) {
+                alert("Masukkan angka yang valid!");
+                return;
+            }
+
+            let hasilHtml = "<div style='text-align: center; font-family: monospace; font-size: 20px;'>";
+            
+            for (let i = 1; i <= tinggi; i++) {
+                let baris = "";
+                for (let j = 1; j <= i; j++) {
+                    baris += "* ";
+                }
+                hasilHtml += baris + "<br>";
+            }
+            hasilHtml += "</div>";
+
+            let popupWindow = window.open("", "_blank", "width=400,height=400,left=500,top=200");
+            
+            popupWindow.document.write("<title>Segitiga Bintang</title>");
+            popupWindow.document.write("<body style='background-color: #ffffe0; margin: 0; padding: 20px;'>");
+            popupWindow.document.write(hasilHtml);
+            popupWindow.document.write("<" + "/body>");
+            popupWindow.document.close();
+        }
+    </script>
+</body>
+</html>

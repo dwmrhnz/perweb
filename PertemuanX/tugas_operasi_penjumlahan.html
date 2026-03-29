@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Penjumlahan</title>
+</head>
+<body>
+    <script LANGUAGE = "JavaScript">
+        function jumlah() {
+        nilai1=document.formJml.nilaisatu.value;
+        nilai2=document.formJml.nilaidua.value;
+        hasil=parseInt(nilai1) + parseInt(nilai2);
+        document.write ("Hasil penjumlahan adalah " + hasil);
+        }
+    </script>
+    <form name="formJml" Onsubmit="jumlah()">
+        Masukkan bilangan ke-1: <br> <input type="text" name="nilaisatu"> <br>
+        Masukkan bilangan ke-2: <br> <input type="text" name="nilaidua"> <br>
+        Tekan tombol ini untuk menjumlahkan: <br>
+        <input type="Submit" value="Hitung penjumlahan">
+    </form>
+</body>
+</html>

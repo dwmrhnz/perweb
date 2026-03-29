@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanggal dan Waktu Menggunakan Array</title>
+</head>
+<body>
+    <SCRIPT LANGUAGE = "JavaScript">
+        var waktu = new Date();
+        var hari= new Array ("Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu")
+        var bulan = new Array ("Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember")
+        document.write ("Hari ini : " + hari[waktu.getDay()] + ", " +
+                        waktu.getDate() + " " + bulan[waktu.getMonth()] + " " +
+                        waktu.getFullYear()) ;
+    </SCRIPT>
+</body>
+</html>
