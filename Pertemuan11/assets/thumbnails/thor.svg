@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Thor thumbnail</title>
+  <desc id="desc">Original cinematic thumbnail inspired by Thor with a hammer silhouette and violet lightning.</desc>
+  <defs>
+    <linearGradient id="storm" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050507"/>
+      <stop offset="0.5" stop-color="#4c1d95"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="1100" fill="url(#storm)"/>
+  <path d="M120 194 324 410 246 438 472 732 420 508 526 470z" fill="#f8fafc" opacity="0.78" filter="url(#glow)"/>
+  <path d="M526 136 684 286 502 478 344 328z" fill="#f6f3ff" opacity="0.9"/>
+  <path d="M536 169 651 279 495 444 379 334z" fill="#111827"/>
+  <path d="M319 355 394 426 237 592 162 521z" fill="#c4b5fd"/>
+  <path d="M193 574 236 615 162 694 119 653z" fill="#f6f3ff"/>
+  <circle cx="400" cy="398" r="262" fill="none" stroke="#f6f3ff" stroke-opacity="0.12" stroke-width="4"/>
+  <circle cx="400" cy="398" r="196" fill="none" stroke="#c4b5fd" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M0 810c168-78 303-116 400-116s232 38 400 116v290H0z" fill="#030712" opacity="0.72"/>
+  <text x="66" y="972" fill="#f6f3ff" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="800">THOR</text>
+</svg>

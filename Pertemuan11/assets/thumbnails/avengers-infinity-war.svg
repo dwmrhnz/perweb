@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Avengers Infinity War thumbnail</title>
+  <desc id="desc">Original cinematic thumbnail inspired by Avengers Infinity War with six glowing stones across a cosmic hand motif.</desc>
+  <defs>
+    <radialGradient id="cosmic" cx="50%" cy="36%" r="62%">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="0.35" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#050507"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1100" fill="#050507"/>
+  <rect width="800" height="1100" fill="url(#cosmic)" opacity="0.82"/>
+  <path d="M274 224h252l54 226-58 232H278l-58-232z" fill="#1f1235" stroke="#f6f3ff" stroke-opacity="0.18" stroke-width="4"/>
+  <path d="M292 224 260 118M352 224l-8-126M448 224l8-126M508 224l32-106" stroke="#facc15" stroke-width="38" stroke-linecap="round"/>
+  <ellipse cx="400" cy="456" rx="120" ry="160" fill="#facc15" opacity="0.22"/>
+  <g>
+    <circle cx="400" cy="330" r="30" fill="#f6f3ff"/>
+    <circle cx="330" cy="408" r="28" fill="#60a5fa"/>
+    <circle cx="470" cy="408" r="28" fill="#ef4444"/>
+    <circle cx="360" cy="512" r="28" fill="#22c55e"/>
+    <circle cx="440" cy="512" r="28" fill="#a855f7"/>
+    <circle cx="400" cy="604" r="28" fill="#f97316"/>
+  </g>
+  <circle cx="400" cy="466" r="284" fill="none" stroke="#f6f3ff" stroke-opacity="0.13" stroke-width="4"/>
+  <path d="M0 786c134-62 267-92 400-92s266 30 400 92v314H0z" fill="#050507" opacity="0.72"/>
+  <text x="58" y="910" fill="#f6f3ff" font-family="Inter, Arial, sans-serif" font-size="60" font-weight="800">AVENGERS</text>
+  <text x="58" y="984" fill="#c4b5fd" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800">INFINITY</text>
+  <text x="58" y="1046" fill="#f6f3ff" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">WAR</text>
+</svg>

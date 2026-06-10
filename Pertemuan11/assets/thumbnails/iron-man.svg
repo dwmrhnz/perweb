@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Iron Man thumbnail</title>
+  <desc id="desc">Original cinematic thumbnail inspired by Iron Man with a glowing arc reactor and armor-like red gold panels.</desc>
+  <defs>
+    <radialGradient id="reactorGlow" cx="50%" cy="36%" r="42%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.22" stop-color="#c4b5fd"/>
+      <stop offset="0.62" stop-color="#7f1d1d"/>
+      <stop offset="1" stop-color="#050507"/>
+    </radialGradient>
+    <linearGradient id="armor" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#260707"/>
+      <stop offset="0.48" stop-color="#991b1b"/>
+      <stop offset="1" stop-color="#facc15"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1100" fill="#050507"/>
+  <rect width="800" height="1100" fill="url(#reactorGlow)" opacity="0.9"/>
+  <path d="M88 0h188l-62 1100H0V158z" fill="#0b0b12" opacity="0.84"/>
+  <path d="M712 0H524l62 1100h214V158z" fill="#0b0b12" opacity="0.84"/>
+  <path d="M197 188 400 78l203 110-34 282H231z" fill="none" stroke="#f8fafc" stroke-opacity="0.18" stroke-width="3"/>
+  <circle cx="400" cy="390" r="166" fill="#050507" stroke="#f6f3ff" stroke-opacity="0.22" stroke-width="3"/>
+  <circle cx="400" cy="390" r="112" fill="#ffffff" opacity="0.96"/>
+  <circle cx="400" cy="390" r="72" fill="#c4b5fd"/>
+  <circle cx="400" cy="390" r="38" fill="#050507"/>
+  <g opacity="0.7" stroke="#facc15" stroke-width="12" stroke-linecap="round">
+    <path d="M400 210v68"/>
+    <path d="M400 502v68"/>
+    <path d="M220 390h68"/>
+    <path d="M512 390h68"/>
+  </g>
+  <path d="M184 674h432l-74 202H258z" fill="url(#armor)" opacity="0.72"/>
+  <path d="M184 674h432M258 876h284" fill="none" stroke="#f6f3ff" stroke-opacity="0.2" stroke-width="3"/>
+  <text x="72" y="943" fill="#f6f3ff" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">IRON</text>
+  <text x="72" y="1018" fill="#c4b5fd" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">MAN</text>
+</svg>

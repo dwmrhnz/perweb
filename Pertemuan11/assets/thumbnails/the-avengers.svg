@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">The Avengers thumbnail</title>
+  <desc id="desc">Original cinematic thumbnail inspired by The Avengers with a bold A-shaped team mark and cosmic light.</desc>
+  <defs>
+    <radialGradient id="core" cx="50%" cy="36%" r="56%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.24" stop-color="#c4b5fd"/>
+      <stop offset="0.7" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#050507"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1100" fill="#050507"/>
+  <rect width="800" height="1100" fill="url(#core)" opacity="0.8"/>
+  <circle cx="400" cy="394" r="260" fill="none" stroke="#f6f3ff" stroke-opacity="0.24" stroke-width="5"/>
+  <circle cx="400" cy="394" r="188" fill="none" stroke="#8b5cf6" stroke-opacity="0.42" stroke-width="3"/>
+  <path d="M338 650 406 162h92l120 488h-92l-22-104H376l-38 104z" fill="#f6f3ff"/>
+  <path d="M394 462h92l-38-184z" fill="#050507"/>
+  <path d="M276 650 394 162h-92L184 650z" fill="#c4b5fd"/>
+  <path d="M234 506h364" stroke="#050507" stroke-width="28"/>
+  <path d="M556 214h142v92" fill="none" stroke="#f6f3ff" stroke-width="24" stroke-linecap="square"/>
+  <path d="M88 780h624" stroke="#f6f3ff" stroke-opacity="0.16" stroke-width="2"/>
+  <text x="62" y="934" fill="#f6f3ff" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800">THE</text>
+  <text x="62" y="1012" fill="#c4b5fd" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="800">AVENGERS</text>
+</svg>

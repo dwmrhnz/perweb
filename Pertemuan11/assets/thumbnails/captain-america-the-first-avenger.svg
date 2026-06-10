@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Captain America The First Avenger thumbnail</title>
+  <desc id="desc">Original cinematic thumbnail inspired by Captain America with a shield-like star emblem and cool wartime lighting.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#030712"/>
+      <stop offset="0.45" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#7f1d1d"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="50%" cy="36%" r="52%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.88"/>
+      <stop offset="0.36" stop-color="#93c5fd" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1100" fill="url(#bg)"/>
+  <rect width="800" height="1100" fill="url(#shine)"/>
+  <g transform="translate(400 382)">
+    <circle r="222" fill="#0f172a" stroke="#f8fafc" stroke-opacity="0.28" stroke-width="4"/>
+    <circle r="178" fill="#991b1b"/>
+    <circle r="132" fill="#f8fafc"/>
+    <circle r="88" fill="#1d4ed8"/>
+    <path d="M0-70 21-22h52L31 10l17 54L0 32l-48 32 17-54-42-32h52z" fill="#f8fafc"/>
+  </g>
+  <path d="M68 704c126-46 242-70 332-70s206 24 332 70v148c-114-53-225-80-332-80s-218 27-332 80z" fill="#020617" opacity="0.58"/>
+  <path d="M92 692c94-33 194-50 308-50s214 17 308 50" fill="none" stroke="#f8fafc" stroke-opacity="0.26" stroke-width="3"/>
+  <text x="64" y="904" fill="#f6f3ff" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">CAPTAIN</text>
+  <text x="64" y="968" fill="#f6f3ff" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">AMERICA</text>
+  <text x="64" y="1030" fill="#c4b5fd" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">THE FIRST AVENGER</text>
+</svg>

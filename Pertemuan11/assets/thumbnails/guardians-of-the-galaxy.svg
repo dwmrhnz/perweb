@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Guardians of the Galaxy thumbnail</title>
+  <desc id="desc">Original cinematic thumbnail inspired by Guardians of the Galaxy with a neon cassette and starfield.</desc>
+  <defs>
+    <linearGradient id="space" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#050507"/>
+      <stop offset="0.44" stop-color="#581c87"/>
+      <stop offset="1" stop-color="#be185d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1100" fill="url(#space)"/>
+  <g fill="#f6f3ff" opacity="0.7">
+    <circle cx="122" cy="145" r="3"/>
+    <circle cx="224" cy="304" r="2"/>
+    <circle cx="672" cy="214" r="4"/>
+    <circle cx="604" cy="475" r="2"/>
+    <circle cx="146" cy="524" r="3"/>
+    <circle cx="706" cy="676" r="2"/>
+    <circle cx="350" cy="122" r="2"/>
+  </g>
+  <circle cx="504" cy="250" r="144" fill="#f6f3ff" opacity="0.12"/>
+  <rect x="124" y="394" width="552" height="300" rx="24" fill="#111827" stroke="#f6f3ff" stroke-opacity="0.22" stroke-width="4"/>
+  <rect x="178" y="442" width="444" height="80" rx="12" fill="#f6f3ff"/>
+  <rect x="218" y="560" width="364" height="88" rx="44" fill="#050507"/>
+  <circle cx="288" cy="604" r="34" fill="#c4b5fd"/>
+  <circle cx="512" cy="604" r="34" fill="#c4b5fd"/>
+  <path d="M288 604h224" stroke="#f6f3ff" stroke-opacity="0.28" stroke-width="8"/>
+  <path d="M216 482h238" stroke="#8b5cf6" stroke-width="10" stroke-linecap="round"/>
+  <path d="M120 760c152-40 288-60 408-60 66 0 118 6 156 18v382H120z" fill="#050507" opacity="0.54"/>
+  <text x="58" y="902" fill="#f6f3ff" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">GUARDIANS</text>
+  <text x="58" y="966" fill="#f6f3ff" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800">OF THE</text>
+  <text x="58" y="1032" fill="#c4b5fd" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800">GALAXY</text>
+</svg>

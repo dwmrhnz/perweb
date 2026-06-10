@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Black Panther thumbnail</title>
+  <desc id="desc">Original cinematic thumbnail inspired by Black Panther with a sleek mask-like violet emblem.</desc>
+  <defs>
+    <radialGradient id="vibranium" cx="50%" cy="34%" r="58%">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="0.38" stop-color="#6d28d9"/>
+      <stop offset="1" stop-color="#050507"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1100" fill="#050507"/>
+  <rect width="800" height="1100" fill="url(#vibranium)" opacity="0.78"/>
+  <path d="M400 126c146 58 248 166 278 310-26 150-118 272-278 366-160-94-252-216-278-366 30-144 132-252 278-310z" fill="#050507" stroke="#c4b5fd" stroke-opacity="0.42" stroke-width="4"/>
+  <path d="M242 368 358 446l-104 48zM558 368 442 446l104 48z" fill="#f6f3ff"/>
+  <path d="M400 222 354 674h92z" fill="#c4b5fd" opacity="0.82"/>
+  <path d="M294 574 400 708l106-134" fill="none" stroke="#f6f3ff" stroke-opacity="0.28" stroke-width="5"/>
+  <path d="M194 296 84 186M606 296l110-110M196 682 94 766M604 682l102 84" stroke="#c4b5fd" stroke-opacity="0.4" stroke-width="4"/>
+  <path d="M0 830c134-72 267-108 400-108s266 36 400 108v270H0z" fill="#050507" opacity="0.78"/>
+  <text x="58" y="946" fill="#f6f3ff" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">BLACK</text>
+  <text x="58" y="1026" fill="#c4b5fd" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">PANTHER</text>
+</svg>
